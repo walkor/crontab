@@ -8,7 +8,7 @@ composer require workerman/crontab
 
 # Usage
 start.php
-```
+```php
 <?php
 use Workerman\Worker;
 require __DIR__ . '/../vendor/autoload.php';
