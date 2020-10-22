@@ -1,5 +1,5 @@
 # crontab
-A crontab written in PHP based on workerman
+A crontab written in PHP based on [workerman](https://github.com/walkor/workerman)
 
 # Install
 ```
@@ -7,6 +7,7 @@ composer require workerman/crontab
 ```
 
 # Usage
+start.php
 ```
 <?php
 use Workerman\Worker;
@@ -26,3 +27,5 @@ $worker->onWorkerStart = function () {
 
 Worker::runAll();
 ```
+
+Run with commands `php start.php start` or php `start.php start -d`
