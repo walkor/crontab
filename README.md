@@ -1,5 +1,5 @@
 # crontab
-A crontab written in PHP based on [workerman](https://github.com/walkor/workerman)
+A crontab with precision in seconds written in PHP based on [workerman](https://github.com/walkor/workerman)
 
 # Install
 ```
