@@ -23,7 +23,7 @@
         "source": "https://github.com/walkor/crontab"
     },
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.0",
         "workerman/workerman": ">=3.5.0"
     },
     "autoload": {
