@@ -24,7 +24,7 @@
     },
     "require": {
         "php": ">=7.0",
-        "workerman/workerman": ">=3.5.0"
+        "workerman/workerman": ">=4.0.20"
     },
     "autoload": {
         "psr-4": {
