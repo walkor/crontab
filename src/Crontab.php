@@ -47,11 +47,11 @@ class Crontab
 
     /**
      * Crontab constructor.
-     * @param $rule
-     * @param $callback
-     * @param null $name
+     * @param string $rule
+     * @param callable $callback
+     * @param string $name
      */
-    public function __construct($rule, $callback, $name = null)
+    public function __construct($rule, $callback, $name = '')
     {
         $this->_rule = $rule;
         $this->_callback = $callback;
