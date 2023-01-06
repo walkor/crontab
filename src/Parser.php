@@ -99,7 +99,7 @@ class Parser
             $start = $min;
         }
         $result = [];
-        if ($string === '*') {
+        if ($string === '*' || $string === '*/1') {
             for ($i = $start; $i <= $max; ++$i) {
                 $result[] = $i;
             }
